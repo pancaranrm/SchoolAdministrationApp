@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+.auth{
+    background-color: rgba(238, 232, 170, 0.63);
+}
+.wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color: rgba(156, 184, 235, 0.822);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+.wrap .logo-auth{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.wrap .auth-title{
+    font-size: 15px;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.wrap .content-auth{
+width: 80%;
+}
+.wrap .content-auth form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrap .content-auth form input{
+    margin-bottom: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid gainsboro;
+    padding: 5px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap .content-auth form button{
+    margin-top: 20px;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(68, 112, 129);
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+.wrap .content-auth form button:hover{
+    background-color: rgb(29, 62, 75);
+}
+
+
+@media only screen and (max-width: 725px) {
+    .wrap{
+        width: 100%;
+        background-color: white;
+    }
+}
